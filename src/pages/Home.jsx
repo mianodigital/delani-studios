@@ -1,10 +1,13 @@
 import React from 'react';
 
+import { Hero } from '../components/containers';
+import { Main } from '../components/styles/container.styled';
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <Main>
+      <Hero />
+    </Main>
   );
 };
 
