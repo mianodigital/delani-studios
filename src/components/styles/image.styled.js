@@ -7,5 +7,5 @@ export const Logo = styled.img`
 
 export const Click = styled.img`
   height: 3rem;
-  margin-top: 10rem;
+  margin-top: 22rem;
 `;

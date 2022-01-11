@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import heroBg from '../../assets/images/backgrounds/home.jpg';
+import servicesBg from '../../assets/images/backgrounds/services.jpg';
 
 export const Main = styled.main`
   margin: 0 auto;
@@ -20,7 +21,6 @@ export const Container = styled.div`
   height: 100%;
   width: 1440px;
   max-width: 100%;
-  padding: 0 1rem;
   margin: 0 auto;
 `;
 
@@ -32,5 +32,10 @@ export const Center = styled.div`
   text-align: center;
 `;
 export const Section = styled(Center)`
-  margin: 5rem 20rem;
+  padding: 5rem 20rem;
+`;
+export const ServicesContainer = styled(HeroContainer)`
+  background-image: url(${servicesBg});
+  height: auto;
+  padding: 0 20rem;
 `;
