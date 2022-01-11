@@ -31,3 +31,6 @@ export const Center = styled.div`
   justify-content: center;
   text-align: center;
 `;
+export const Section = styled(Center)`
+  margin: 5rem 20rem;
+`;

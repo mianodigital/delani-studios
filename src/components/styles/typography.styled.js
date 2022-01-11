@@ -5,7 +5,7 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.secondary};
   font-family: ${({ theme }) => theme.font.open};
   font-size: 3.2rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 3.2rem;
 `;
 
@@ -22,7 +22,7 @@ export const Text = styled.p`
   font-family: ${({ theme }) => theme.font.open};
   font-size: 1rem;
   font-weight: 400;
-  line-height: 0.4rem;
+  line-height: 1rem;
 `;
 
 export const HeroText = styled(Text)`
