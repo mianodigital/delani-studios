@@ -9,6 +9,10 @@ export const Title = styled.h1`
   line-height: 3.2rem;
   text-transform: uppercase;
 `;
+export const SubTitle = styled(Title)`
+  font-size: 1.6rem;
+  font-weight: 700;
+`;
 
 export const HeroTitle = styled(Title)`
   color: ${({ theme }) => theme.colors.tertiary};

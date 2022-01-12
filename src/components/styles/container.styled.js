@@ -31,11 +31,27 @@ export const Center = styled.div`
   justify-content: center;
   text-align: center;
 `;
+
 export const Section = styled(Center)`
   padding: 5rem 20rem;
 `;
+
 export const ServicesContainer = styled(HeroContainer)`
   background-image: url(${servicesBg});
   height: auto;
   padding: 0 20rem;
+`;
+
+export const Row = styled(Center)`
+  flex-direction: row;
+`;
+
+export const Card = styled(Center)`
+  justify-content: flex-end;
+  padding: 0 2rem;
+  width: 30%;
+
+  & > img {
+    height: 5rem;
+  }
 `;

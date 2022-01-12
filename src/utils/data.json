@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "1",
+      "title": "Design",
+      "description": "Our design practice offers a full range of services including branding strategies, interaction, and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is waht what is needed",
+      "image": "design"
+    },
+    {
+      "id": "2",
+      "title": "Development",
+      "description": "All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices as test-driven development and par programming.",
+      "image": "development"
+    },
+    {
+      "id": "3",
+      "title": "Product Management",
+      "description": "Planning and development is iterative. Because we constantly coding and testing the products we build are always ready to go live. This iterative process allows for changes as business requirents evolve.",
+      "image": "product"
+    }
+  ]
+}
