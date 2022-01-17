@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { About, Contact, Hero, Operations, Portfolio, Services } from '../components/containers';
+import { About, Contact, Footer, Hero, Operations, Portfolio, Services } from '../components/containers';
 import { Main } from '../components/styles/container.styled';
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
       <Operations />
       <Portfolio />
       <Contact />
+      <Footer />
     </Main>
   );
 };

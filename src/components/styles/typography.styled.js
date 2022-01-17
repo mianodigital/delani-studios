@@ -43,3 +43,13 @@ export const ServicesText = styled(Text)`
   color: ${({ theme }) => theme.colors.tertiary};
   text-transform: none;
 `;
+
+export const FooterText = styled.h3`
+  color: ${({ theme }) => theme.colors.secondary};
+  font-family: ${({ theme }) => theme.font.open};
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+`;

@@ -18,3 +18,6 @@ export const PortfolioGrid = styled(Masonry)`
 export const PortfolioImage = styled.img`
   padding: 1rem;
 `;
+export const SocialIcon = styled.img`
+  padding: 1rem;
+`;

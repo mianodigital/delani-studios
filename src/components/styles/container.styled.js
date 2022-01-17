@@ -78,3 +78,11 @@ export const InputContainer = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+export const IconContainer = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+  overflow: wrap;
+`;
