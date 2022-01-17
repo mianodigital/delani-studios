@@ -13,8 +13,11 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    outline: none;
     };
-
+/* *:focus {
+    outline: none;
+}; */
   body {
     font-family: ${({ theme }) => theme.font.open};
     background: ${({ theme }) => theme.colors.primary};
@@ -33,6 +36,7 @@ export const theme = {
     primary: '#eff0e0',
     secondary: '#3c3c3c',
     tertiary: '#ffffff',
+    light: '#dddcda',
   },
   media: {
     small: '320px',

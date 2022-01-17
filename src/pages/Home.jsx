@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { About, Hero, Operations, Portfolio, Services } from '../components/containers';
+import { About, Contact, Hero, Operations, Portfolio, Services } from '../components/containers';
 import { Main } from '../components/styles/container.styled';
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
       <Services />
       <Operations />
       <Portfolio />
+      <Contact />
     </Main>
   );
 };

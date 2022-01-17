@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import contactBg from '../../assets/images/backgrounds/contact.jpg';
 import heroBg from '../../assets/images/backgrounds/home.jpg';
 import servicesBg from '../../assets/images/backgrounds/services.jpg';
 
@@ -41,6 +42,11 @@ export const ServicesContainer = styled(HeroContainer)`
   height: 100%;
 `;
 
+export const ContactContainer = styled(HeroContainer)`
+  background-image: url(${contactBg});
+  height: 100%;
+`;
+
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
@@ -59,4 +65,16 @@ export const Card = styled.div`
     height: 5rem;
     width: 5rem;
   }
+`;
+
+export const FormContainer = styled.form`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const InputContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 `;
