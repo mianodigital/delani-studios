@@ -33,25 +33,30 @@ export const Center = styled.div`
 `;
 
 export const Section = styled(Center)`
-  padding: 5rem 20rem;
+  padding: 5rem 10rem;
 `;
 
 export const ServicesContainer = styled(HeroContainer)`
   background-image: url(${servicesBg});
-  height: auto;
-  padding: 0 20rem;
+  height: 100%;
 `;
 
-export const Row = styled(Center)`
+export const Row = styled.div`
+  display: flex;
   flex-direction: row;
+  text-align: center;
 `;
 
-export const Card = styled(Center)`
-  justify-content: flex-end;
+export const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   padding: 0 2rem;
-  width: 30%;
+  width: 500px;
 
   & > img {
     height: 5rem;
+    width: 5rem;
   }
 `;

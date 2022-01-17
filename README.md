@@ -10,6 +10,12 @@ This project applies [Styled Components](https://styled-components.com/) for sty
 
 command: yarn add styled-components
 
+### Images
+
+I have implemented [React Masonry CSS](https://www.npmjs.com/package/react-masonry-css) package to assit me in arranging image in a grid.
+
+command: yarn add react-masonry-css
+
 ## Routing
 
 Uses the [React Router Dom](https://www.npmjs.com/package/react-router-dom) package to create and manage my routes. This library is applied to react projects to handle both the client and server side routing.

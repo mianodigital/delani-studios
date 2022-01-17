@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+// Heading Container
+export const HeadingContainer = styled.div`
+  text-align: center;
+`;
+
 // Titles
 export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.secondary};

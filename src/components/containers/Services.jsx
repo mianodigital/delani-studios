@@ -8,10 +8,12 @@ function Services() {
         <HeroTitle>services</HeroTitle>
         <ServicesText>
           Before we sign a contract or write a line of code our team will spend
-          the necessary time needed to understand your product vision. The
-          outcome of this scoping session is a proposal or high-level statement
-          of work. Based on your requirements, we can provide a complete
-          offering or just the pieces you need
+          the necessary time needed to understand your product vision.
+          <br />
+          The outcome of this scoping session is a proposal or high-level
+          statement of work. <br />
+          Based on your requirements, we can provide a complete offering or just
+          the pieces you need.
         </ServicesText>
       </Section>
     </ServicesContainer>

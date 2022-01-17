@@ -10,7 +10,7 @@ function Operations() {
       </Section>
       <Row>
         {Ops.operations.map((item, i) => (
-          <Card>
+          <Card key={i}>
             <img
               src={require('../../assets/images/services/' +
                 item.image +
